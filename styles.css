@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(31, 52, 238);
+
+}
+
+#counter {
+
+    background-color: rgb(37, 36, 36);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+#counter div {
+
+    display: flex;
+    align-items: center;
+
+}
+
+#value {
+    font-size: 5rem;
+    color: aliceblue;
+    min-width: 14rem;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+    font-weight: 500;
+    cursor: pointer
+}
+
+button:hover {
+    opacity: .8;
+    transition: opacity .5s;
+}
+
+.count-button {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    background-color: rgb(17, 17, 17);
+    margin-right: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.count-button:last-child {
+
+    margin-right: 0rem;
+    margin-left: 1rem;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-right: 5px;
+}
+
+
+
+#reset {
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: rgb(57, 7, 194);
+    padding: .8rem 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.icons i {
+    padding: 3px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
